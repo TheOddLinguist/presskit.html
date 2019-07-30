@@ -6,7 +6,7 @@
   <div>
     {{#youtube}}
     <p>
-      <strong>{{../name}}</strong> — <a href="https://www.youtube.com/embed/{{trim .}}?rel=0">YouTube</a> {{#if ../download}}| <a href="{{../download}}" target="_blank">Download</a>{{/if}}
+      <strong>{{../name}}</strong> — <a href="https://www.youtube.com/embed/{{trim .}}?rel=0" target="_blank">YouTube</a> {{#if ../download}}| <a href="{{../download}}" target="_blank">Download</a>{{/if}}
     </p>
 
     <div class="video-player">
@@ -16,7 +16,7 @@
 
     {{#vimeo}}
     <p>
-      <strong>{{../name}}</strong> — <a href="https://player.vimeo.com/video/{{trim .}}">Vimeo</a> {{#if ../download}}| <a href="{{../download}}" target="_blank">Download</a>{{/if}}
+      <strong>{{../name}}</strong> — <a href="https://player.vimeo.com/video/{{trim .}}" target="_blank">Vimeo</a> {{#if ../download}}| <a href="{{../download}}" target="_blank">Download</a>{{/if}}
     </p>
 
     <div class="video-player">

@@ -13,7 +13,7 @@
 
       <dd>
         {{#if website}}
-          <a href="{{website}}">{{role}}</a>
+          <a href="{{website}}" target="_blank">{{role}}</a>
         {{else}}
           {{role}}
         {{/if}}
@@ -37,7 +37,7 @@
         {{/if}}
 
         {{#if link}}
-        <a href="{{link}}">{{prettyURL link}}</a>
+        <a href="{{link}}" target="_blank">{{prettyURL link}}</a>
         {{/if}}
       </dd>
       {{/each}}
